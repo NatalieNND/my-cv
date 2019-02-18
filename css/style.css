@@ -1,0 +1,121 @@
+.work {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 150px;
+  text-align: center;
+}
+
+.main {
+  border: double 10px;
+  background-color: white;
+  width: 80%;
+  color: black;
+}
+
+img {
+  width: 475px;
+  height: 250px;
+}
+
+.references {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: black;
+  border: double 10px;
+}
+
+.ref {
+  padding-left: 160px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: white;
+}
+
+body {
+  background-image: url(../images/pexels-photo-1038628.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: black;
+}
+
+img {
+  padding-top: 40px;
+  width: 15%;
+  height: 15%;
+}
+
+h1 {
+  font-size: 45px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 35px;
+  text-align: center;
+}
+
+h3 {
+  color: gold;
+}
+
+button {
+  height: 50px;
+  color: blue;
+  background-color: black;
+  border-radius: 20%;
+}
+
+#demo {
+  font-size: 20px;
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: 0.2s ease-in-out;
+  opacity: 4;
+}
+
+nav {
+  word-spacing: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 25px;
+  text-align: center;
+  padding-right: 70px;
+  padding-left: 70px;
+  text-decoration: none;
+  padding-top: 20px;
+}
+
+.education {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  padding-left: 160px;
+  text-align: center;
+  font-size: 20px;
+  color: aliceblue;
+}
+
+.education :hover {
+  transform: scale(1.1);
+  transition: 0.5s ease-in-out;
+  opacity: 4;
+}
+
+.container {
+  border: double 10px;
+  background-color: black;
+  width: 70%;
+}
+
+.port {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.folio img {
+  height: 200px;
+  width: 350px;
+}
+
+/*# sourceMappingURL=style.css.map */
