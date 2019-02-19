@@ -14,16 +14,16 @@ img {
 
 a:link {
     text-decoration: none;
-    color: gold;
+    color: black;
   }
   
   a:visited {
-    color: gold;
+    color: black;
   }
   
   a:hover {
     /* background-color: aqua; */
-    color: black;
+    color: red;
     text-decoration: none;
     transform: scale(1.1);
     transition: 0.5s ease-in-out;
@@ -56,5 +56,12 @@ h2 {
 
 h3 {
     color: gold;
+}
+
+.logos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    font-size: 90px;
+    padding-left: 10px;
 }
 

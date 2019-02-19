@@ -31,6 +31,13 @@ img {
   color: white;
 }
 
+.dropdown {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  font-size: 50px;
+  padding-left: 60px;
+}
+
 body {
   background-image: url(../images/pexels-photo-1038628.jpeg);
   background-repeat: no-repeat;
@@ -42,6 +49,57 @@ img {
   padding-top: 40px;
   width: 15%;
   height: 15%;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  /* background-color: aqua; */
+  color: red;
+  text-decoration: none;
+  transform: scale(1.1);
+  transition: 0.5s ease-in-out;
+  opacity: 4;
+}
+
+a:active {
+  color: white;
+}
+
+.description {
+  text-align: center;
+}
+
+.content {
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+h3 {
+  color: gold;
+}
+
+.logos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  font-size: 90px;
+  padding-left: 150px;
 }
 
 h1 {
@@ -116,6 +174,13 @@ nav {
 .folio img {
   height: 200px;
   width: 350px;
+  padding-left: 60px;
+}
+
+.logos :hover {
+  transform: scale(1.1);
+  transition: 0.2s ease-in-out;
+  opacity: 4;
 }
 
 /*# sourceMappingURL=style.css.map */
