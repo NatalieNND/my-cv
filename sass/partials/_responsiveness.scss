@@ -1,0 +1,13 @@
+// acedemics page
+@media only screen 
+  and (min-device-width: 0px) 
+  and (max-device-width: 481px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+.education {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+}
+
